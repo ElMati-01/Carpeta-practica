@@ -224,9 +224,97 @@
 
 #--------------------------------------- ejercicio 8 -------------------------------------------#
 
-nota1 = float(input)
+# nota1= float(input("Inserte nota 1 de la Evaluacion: "))
+# nota2= float(input("Inserte nota 2 de la Evaluacion: "))
+# nota3= float(input("Inserte nota 3 de la Evaluacion: "))
+
+# porcentaje1=nota1*0.25
+# porcentaje2=nota2*0.45
+# porcentaje3=nota3*0.30
+
+# total=porcentaje1+porcentaje2+porcentaje3
+
+# print("Su nota final es; ", total)
+
+#------------------------------------- ejercicio 9 ----------------------------------------------#
+
+# salario_actual= float(input("Ingrese su salario actual: "))
+# aumento:0.25
+# subtotal= salario_actual*0.25
+# total= salario_actual+subtotal
+
+# print("Su total es de: ", total)
+
+#------------------------------------- ejercicio 10 ---------------------------------------------#
+
+# parcial1= float(input("Inserte Nota Parcial 1: "))
+# parcial2= float(input("Inserte Nota Parcial 2: "))
+# parcial3= float(input("Inserte Nota Parcial 3: "))
+# examen_final= float(input("Inserte Nota Examen Final: "))
+# trabajo_final= float(input("Inserte Nota Trabajo Final: "))
+
+# subtotal1=((parcial1+parcial2+parcial3)/3)*0.55
+# subtotal2=examen_final*0.3
+# subtotal3=trabajo_final*0.15
+# total=subtotal1+subtotal2+subtotal3
+
+# print(f"\nNota Parciales: {subtotal1} \nNota Examen Final: {subtotal2}\nNota Trabajo Final: {subtotal3}\nSu nota final es de: {total}")
+
+#------------------------------------ ejercicio 11 ----------------------------------------------#
+
+# valor=float(input("Inserte el valor de su Salario: "))
+# dias=float(input("Inserte el número de dias trabajados: "))
+
+# salario_inicial=valor*dias
+# pension=salario_inicial*0.05
+# fondo=salario_inicial*0.03
+# seguro=salario_inicial*0.024
+# descuento=pension+fondo+seguro
+# salario_final=salario_inicial-descuento
+
+# print(f"\nSu salario es de: ${salario_final}\nPension: ${pension}\nFondo de Administracion: ${fondo}\nSeguro de discapacidad: ${seguro}\nDescuento: ${descuento}")
+
+# number= 5
+# number2= 4
+# def message(number):
+#     print("Ingresa un número:", number)
+
+# message(number2)
 
 
+# def message(what, number):
+#     print("Ingresa", what, "número", number)
+
+# message("teléfono", 11)
+# message("precio", 5)
+# message("número", "number")
+
+# def introducción(first_name, last_name):
+#  print("Hola, mi nombre es", first_name, last_name)
+
+# introducción (first_name = "James", last_name = "Bond")
+# introducción (last_name = "Skywalker", first_name = "Luke")
+
+# def adding(a, b, c):
+#  print(a, "+", b, "+", c, "=", a + b + c)
+
+# adding(3, c = 1, b = 2)
+
+
+
+# def xxdxdxdxdxdxdxdxdxdxdxd(Ig_de_la_minita, Id_de_tiktok):
+#   print("Nombre de la loba es ", Ig_de_la_minita, "y el id es", Id_de_tiktok)
+
+# xxdxdxdxdxdxdxdxdxdxdxd("nimuTV", "007" )
+# xxdxdxdxdxdxdxdxdxdxdxd("Quiet","008")
+
+#-----------------------------------------------------#
+
+id_factura= input("Ingrese id de factura: ")
+def ola(id_factura,numero_pago=500):
+  print("El numero de pago esta en ", numero_pago, ", a la vez, la id de la factura es: ", id_factura)
+
+ola(id_factura)
 
 
 
